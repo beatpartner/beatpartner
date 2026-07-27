@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>支援 Support — Beat Partner</title>
+<style>
+  :root{--bg:#fff;--fg:#1a1a1a;--muted:#666;--line:#e3e3e3;--accent:#0a7c6e;--card:#f7f9f9}
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#121414;--fg:#e8eaea;--muted:#9aa3a3;--line:#2a2f2f;--accent:#4fd1c5;--card:#1a1e1e}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+       font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC",sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:44px 22px 80px}
+  h1{font-size:1.85rem;margin:0 0 4px;letter-spacing:-.02em}
+  .tag{color:var(--muted);margin:0 0 34px}
+  h2{font-size:1.18rem;margin:38px 0 12px;padding-top:18px;border-top:1px solid var(--line)}
+  .contact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;margin:26px 0}
+  .contact a{font-size:1.12rem;font-weight:600;color:var(--accent);text-decoration:none;word-break:break-all}
+  .contact a:hover{text-decoration:underline}
+  .hint{color:var(--muted);font-size:.9rem;margin:10px 0 0}
+  details{border-bottom:1px solid var(--line);padding:12px 0}
+  summary{cursor:pointer;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"＋ ";color:var(--accent)}
+  details[open] summary::before{content:"− "}
+  details p{margin:10px 0 4px;color:var(--fg)}
+  ul{padding-left:1.25em}
+  li{margin:5px 0}
+  a{color:var(--accent)}
+  .en{margin-top:70px;padding-top:30px;border-top:3px double var(--line)}
+  .en h1{font-size:1.5rem}
+  footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Beat Partner 支援</h1>
+<p class="tag">節拍器 · 調音器 · 練習紀錄</p>
+
+<div class="contact">
+  <strong>有問題或建議？直接寫信給我們：</strong><br><br>
+  <a href="mailto:beatpartner.app@gmail.com">beatpartner.app@gmail.com</a>
+  <p class="hint">
+    來信時如果能附上：使用的 iPhone／iPad 型號、iOS 版本、App 版本（在「設定」頁最下方），
+    以及問題發生的步驟，會幫助我們更快找到原因。<br>
+    你也可以直接在 App 內點「🐞 回報問題／建議」，這些資訊會自動幫你填好。
+  </p>
+</div>
+
+<h2>常見問題</h2>
+
+<details>
+<summary>調音器為什麼需要一直開著麥克風？</summary>
+<p>調音器要即時顯示你演奏的音高，麥克風必須持續聆聽才做得到。
+但聲音<strong>只在你的裝置上即時分析，用完立刻丟棄</strong>——不錄音、不儲存、不上傳。
+詳見<a href="./privacy.html">隱私權政策</a>。</p>
+</details>
+
+<details>
+<summary>我的錄音和練習紀錄存在哪裡？會不會被上傳？</summary>
+<p>全部只存在你自己的裝置上，<strong>不會上傳到任何地方</strong>。
+這個 App 沒有帳號、沒有伺服器，也不會連線傳送你的資料。</p>
+<p>提醒：因為資料只在本機，<strong>刪除 App 就會一併刪除全部內容</strong>。
+如果有重要的錄音，建議先用 App 內的備份功能匯出保存。</p>
+</details>
+
+<details>
+<summary>換手機的話，資料可以搬過去嗎？</summary>
+<p>可以。請在舊裝置用 App 內的「備份／匯出」功能產生備份檔，
+再到新裝置用「還原／匯入」載入。</p>
+</details>
+
+<details>
+<summary>鎖屏或切到別的 App，節拍器會停嗎？</summary>
+<p>不會。Beat Partner 支援背景播放，鎖屏後節拍器仍會繼續。
+如果遇到聲音中斷，請確認 iOS 沒有開啟「低耗電模式」，並確認沒有其他 App 搶走音訊。</p>
+</details>
+
+<details>
+<summary>可以跟其他 App 的音樂一起播嗎？</summary>
+<p>可以。節拍器設計為與其他 App 的音訊混音並存，你可以一邊聽伴奏一邊開節拍器。</p>
+</details>
+
+<details>
+<summary>錄音沒有聲音，或聲音很小？</summary>
+<p>請依序確認：</p>
+<ul>
+  <li>iOS「設定 → 隱私權與安全性 → 麥克風」中，Beat Partner 是否已開啟</li>
+  <li>裝置沒有靜音、音量足夠</li>
+  <li>若使用藍牙耳機，試著改用內建麥克風測試（部分藍牙裝置的麥克風品質較低）</li>
+  <li>App 內錄音頁的「輸入增益」是否被調得太低</li>
+</ul>
+</details>
+
+<details>
+<summary>調音器顯示的音準跟我的實體調音器不一樣？</summary>
+<p>請先確認 A4 基準頻率設定一致（多數樂器使用 440 Hz，部分樂團使用 442 Hz）。
+另外請在安靜環境測試，環境噪音會影響偵測準確度。</p>
+</details>
+
+<h2>隱私</h2>
+<p>Beat Partner <strong>不收集任何個人資料</strong>，沒有帳號、沒有追蹤、沒有廣告。
+完整說明請見 <a href="./privacy.html">隱私權政策</a>。</p>
+
+
+<!-- ═══════════════════ ENGLISH ═══════════════════ -->
+<div class="en">
+
+<h1>Beat Partner Support</h1>
+<p class="tag">Metronome · Tuner · Practice log</p>
+
+<div class="contact">
+  <strong>Questions or feedback? Email us:</strong><br><br>
+  <a href="mailto:beatpartner.app@gmail.com">beatpartner.app@gmail.com</a>
+  <p class="hint">
+    Please include your device model, iOS version, app version (shown at the bottom of the Settings page),
+    and the steps that led to the problem. You can also tap "🐞 Report an issue" inside the app, which
+    fills in these details for you.
+  </p>
+</div>
+
+<h2>Frequently asked questions</h2>
+
+<details>
+<summary>Why does the tuner keep the microphone on?</summary>
+<p>Real-time pitch display requires continuous listening. The audio is
+<strong>analyzed on-device and discarded immediately</strong> — never recorded, stored, or uploaded.
+See our <a href="./privacy.html">Privacy Policy</a>.</p>
+</details>
+
+<details>
+<summary>Where are my recordings stored? Are they uploaded?</summary>
+<p>Everything stays on your device and is <strong>never uploaded</strong>. There are no accounts and no
+servers. Note that deleting the app also deletes all of its data — please export a backup first if you
+have recordings you want to keep.</p>
+</details>
+
+<details>
+<summary>Can I move my data to a new device?</summary>
+<p>Yes. Use the in-app Backup/Export feature on the old device, then Restore/Import on the new one.</p>
+</details>
+
+<details>
+<summary>Does the metronome keep playing when the screen is locked?</summary>
+<p>Yes, background playback is supported. If audio stops, check that Low Power Mode is off and that no
+other app has taken over audio.</p>
+</details>
+
+<details>
+<summary>Recording is silent or too quiet</summary>
+<p>Check that microphone access is enabled in iOS Settings → Privacy &amp; Security → Microphone; that the
+device is not muted; that you try the built-in microphone if using Bluetooth headphones; and that the
+input gain in the recording screen is not set too low.</p>
+</details>
+
+<h2>Privacy</h2>
+<p>Beat Partner <strong>collects no personal data</strong> — no accounts, no tracking, no ads.
+See the full <a href="./privacy.html">Privacy Policy</a>.</p>
+
+</div>
+
+<footer>
+Beat Partner · <a href="./privacy.html">隱私權政策 Privacy Policy</a><br>
+© 2026 Beat Partner. All rights reserved.
+</footer>
+
+</div>
+</body>
+</html>
